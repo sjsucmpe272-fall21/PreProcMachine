@@ -1,7 +1,5 @@
 # PreProcMachine
 
-## Project idea 1
-
 Machine-learning powered dataset preprocessing - we will try to automate the data preprocessing phase of the machine learning workflow.
 
 ### Abstract
@@ -19,47 +17,3 @@ Machine-learning powered dataset preprocessing - we will try to automate the dat
 ### Dataset Links
 
 -   Given the relatively novel and meta nature of this problem, we would potentially have to construct our own dataset. This would involve either downloading datasets from kaggle in bulk, or finding a way to scrape datasets from sources on the internet. These datasets would each then be run through a labeller program to derive dataset characteristics and metadata, which would then be put into a master dataset.
-
-## Project idea 2
-
-A Machine Learning model to detect the relationship between two consecutive sentences. If the second sentence entails the first, it contradicts the first or they are unrelated.
-
-### Abstract
-
--   Natural Language Interfacing (NLI) is a popular Natural Language Processing (NLP) problem determining how pairs of sentences are related.
--   Machine Learning model will classify pairs as entailment (0), contradict (1) or unrelated (3)
-
-### Approach
-
--   To preprocess the data we will apply NLP techniques like tokenization, stop word removal, word2vec, etc.
--   To train the model we’ll use different Deep Learning techniques like Neural Network and Transformers.
-
-### Persona
-
--   There won’t be any direct audience for this model, but this can be very useful for building systems in fields like journalism, law and science, where precision of sentences plays an important role.
--   This model can be used to analyze text, fact-check news. This would be a totally manual activity otherwise. Using this model to automate such activities would save time and manual efforts.
-
-### Dataset Links
-
--   https://www.kaggle.com/c/contradictory-my-dear-watson/data
-
-## Project Idea 3
-
-A Computer Vision model to detect whether a person is wearing a mask or not.
-
-### Abstract
-
--   A Machine Learning model will be implemented, which will return whether person is wearing mask or not.
--   We will utilize Image Processing techniques to train the model.
-
-### Approach
-
--   Use scene recognition models to verify if a person is wearing a mask in a correct way (covering mouth and nose properly)
-
-### Persona
-
--   Use case may be implemented in public places to monitor and ensure covid protocols are followed properly.
-
-### Dataset Links
-
--   https://www.kaggle.com/andrewmvd/face-mask-detection
